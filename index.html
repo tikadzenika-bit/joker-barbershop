@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ka" data-rev="" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#f2e9d8" />
+    <!--head-->
+    <link rel="dns-prefetch" href="https://tile.openstreetmap.org" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preload" href="/src/assets/fonts/display-georgian.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/src/assets/fonts/text-georgian-400.woff2" as="font" type="font/woff2" crossorigin />
+    <script>
+      // 1) JS ჩართულია  2) დამახსოვრებული ენა: მთავარი (ქართული) გვერდიდან გადავდივართ არჩეულზე
+      // 3) ადმინის ლოკალური ცვლილებები არსებობს → გვერდი იმალება, სანამ ახალი შიგთავსი დაიხატება
+      (function (d) {
+        d.className = 'js';
+        try {
+          var s = localStorage.getItem('joker.lang');
+          if (d.lang === 'ka' && (s === 'en' || s === 'ru')) location.replace(location.pathname.replace(/\/?(index\.html)?$/, '/') + s + '/' + location.hash);
+          if (localStorage.getItem('joker.content')) { d.classList.add('is-local'); setTimeout(function () { d.classList.remove('is-local'); }, 2500); }
+        } catch (e) {}
+      })(document.documentElement);
+    </script>
+    <link rel="stylesheet" href="/src/styles/site.css" />
+  </head>
+  <body>
+    <div id="app"><!--app--></div>
+    <script type="module" src="/src/site/main.ts"></script>
+  </body>
+</html>

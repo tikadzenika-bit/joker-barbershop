@@ -1,0 +1,1622 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-15T00:00:00.000Z",
+  "settings": {
+    "brand": "JOKER Barbershop",
+    "logo": null,
+    "bookingUrl": "https://n789845.alteg.io/",
+    "instagram": "https://www.instagram.com/joker_barbershop_tbilisi/",
+    "facebook": "https://www.facebook.com/jokerbarbershoptbilisi/",
+    "ratingValue": "4.9",
+    "ratingCount": "200+",
+    "seoTitle": {
+      "ka": "JOKER Barbershop · ჯოკერი — ბარბერშოპი თბილისში, საბურთალოზე",
+      "en": "JOKER Barbershop — barbershop in Saburtalo, Tbilisi",
+      "ru": "JOKER Barbershop — барбершоп в Тбилиси, Сабуртало"
+    },
+    "seoDescription": {
+      "ka": "ჯოკერი — მეგობრული ბარბერშოპების ქსელი თბილისში: ბახტრიონის 22 და ყაზბეგის 31ა (საბურთალო, ვაკესთან ახლოს). შეჭრა, ფეიდი, წვერი, სამართებლით პარსვა. ჩაეწერე ონლაინ.",
+      "en": "Joker is a friendly barbershop in Tbilisi: 22 Bakhtrioni St. and 31a Kazbegi Ave. (Saburtalo, next to Vake). Haircuts, fades, beard trims, straight-razor shaves. Book online.",
+      "ru": "Joker — дружелюбный барбершоп в Тбилиси: Бахтриони, 22 и Казбеги, 31а (Сабуртало, рядом с Ваке). Стрижки, фейд, борода, бритьё опасной бритвой. Запись онлайн."
+    },
+    "creditName": "NNN Holding",
+    "creditUrl": "",
+    "todo": "ლოგო მოსაწოდებელია კლიენტისგან (ახლა ჩანს ტექსტური ლოგო). რეიტინგი „4.9 · 200+“ აღებულია ბრიფიდან — პერიოდულად განაახლეთ."
+  },
+  "slides": [
+    {
+      "id": "s-brand",
+      "variant": "brand",
+      "suit": "star",
+      "kicker": {
+        "ka": "JOKER Barbershop · ბარბერშოპი თბილისში",
+        "en": "JOKER Barbershop · Barbershop in Tbilisi",
+        "ru": "JOKER Barbershop · Барбершоп в Тбилиси"
+      },
+      "title": {
+        "ka": "მშვიდობა\nმეგობრობა\nშეჭრა",
+        "en": "Peace\nFriendship\nHaircut",
+        "ru": "Мир\nДружба\nСтрижка"
+      },
+      "text": {
+        "ka": "ბარბერშოპი თბილისში, სადაც შემოდიხარ როგორც კლიენტი და გადიხარ როგორც მეგობარი. კარგი მუსიკა, თბილი ხალხი და შეჭრა, რომელიც შენ გიხდება.",
+        "en": "A Tbilisi barbershop where you walk in as a client and walk out as a friend. Good music, warm people and a cut that suits you.",
+        "ru": "Барбершоп в Тбилиси, куда заходишь клиентом, а уходишь другом. Хорошая музыка, тёплые люди и стрижка, которая идёт именно тебе."
+      },
+      "cta": "book",
+      "cta2": "services",
+      "image": null,
+      "imageAlt": {
+        "ka": "",
+        "en": "",
+        "ru": ""
+      }
+    },
+    {
+      "id": "s-hair",
+      "variant": "photo",
+      "suit": "spade",
+      "kicker": {
+        "ka": "თმა",
+        "en": "Hair",
+        "ru": "Волосы"
+      },
+      "title": {
+        "ka": "შეჭრა და ფეიდი —\nნებისმიერი სირთულის",
+        "en": "Cuts and fades —\nany difficulty",
+        "ru": "Стрижка и фейд —\nлюбой сложности"
+      },
+      "text": {
+        "ka": "კლასიკა, ფეიდი თუ კრეატიული დიზაინი თმაზე: ჯერ გისმენთ, მერე ვჭრით. შეჭრა 50 ₾-დან.",
+        "en": "Classic, fade or a creative design: we listen first, then cut. Haircuts from 50 ₾.",
+        "ru": "Классика, фейд или креативный дизайн: сначала слушаем, потом стрижём. Стрижка от 50 ₾."
+      },
+      "cta": "book",
+      "cta2": "services",
+      "image": {
+        "src": "local:slide-hair"
+      },
+      "imageAlt": {
+        "ka": "ბარბერი მაკრატლით და სავარცხლით ჭრის თმას",
+        "en": "A barber cutting hair with scissors and a comb",
+        "ru": "Барбер стрижёт волосы ножницами и расчёской"
+      },
+      "todo": "ფოტო placeholder-ია (Unsplash) — ჩაანაცვლეთ ჯოკერის ფოტოთი."
+    },
+    {
+      "id": "s-beard",
+      "variant": "photo",
+      "suit": "club",
+      "kicker": {
+        "ka": "წვერი და პარსვა",
+        "en": "Beard and shave",
+        "ru": "Борода и бритьё"
+      },
+      "title": {
+        "ka": "წვერი, ულვაში,\nსამართებლით პარსვა",
+        "en": "Beard, moustache,\nrazor shave",
+        "ru": "Борода, усы,\nопасная бритва"
+      },
+      "text": {
+        "ka": "წვერისა და ულვაშის ფორმირება და კლასიკური პარსვა სამართებლით — აუჩქარებლად, როგორც წესია. წვერი 30 ₾-დან.",
+        "en": "Beard and moustache shaping and a classic straight-razor shave, unhurried, the way it should be. Beard trims from 30 ₾.",
+        "ru": "Оформление бороды и усов и классическое бритьё опасной бритвой — без спешки, как положено. Борода от 30 ₾."
+      },
+      "cta": "book",
+      "cta2": "services",
+      "image": {
+        "src": "local:slide-beard"
+      },
+      "imageAlt": {
+        "ka": "ბარბერი მაკრატლით აფორმებს წვერს",
+        "en": "A barber shaping a beard with scissors",
+        "ru": "Барбер оформляет бороду ножницами"
+      },
+      "todo": "ფოტო placeholder-ია (Unsplash) — ჩაანაცვლეთ ჯოკერის ფოტოთი."
+    },
+    {
+      "id": "s-rating",
+      "variant": "rating",
+      "suit": "heart",
+      "kicker": {
+        "ka": "შეფასებები",
+        "en": "Reviews",
+        "ru": "Отзывы"
+      },
+      "title": {
+        "ka": "4.9 ★\n200+ შეფასება",
+        "en": "4.9 ★\n200+ reviews",
+        "ru": "4.9 ★\n200+ отзывов"
+      },
+      "text": {
+        "ka": "ასე გვაფასებენ სტუმრები თბილისის რამდენიმე უბანში. მადლობა ნდობისთვის.",
+        "en": "That is how guests rate us across several Tbilisi neighbourhoods. Thank you for the trust.",
+        "ru": "Так нас оценивают гости в нескольких районах Тбилиси. Спасибо за доверие."
+      },
+      "cta": "reviews",
+      "cta2": "book",
+      "image": null,
+      "imageAlt": {
+        "ka": "",
+        "en": "",
+        "ru": ""
+      }
+    },
+    {
+      "id": "s-branches",
+      "variant": "branches",
+      "suit": "diamond",
+      "kicker": {
+        "ka": "ფილიალები",
+        "en": "Branches",
+        "ru": "Филиалы"
+      },
+      "title": {
+        "ka": "რომელი\nგირჩევნია?",
+        "en": "Which branch\nsuits you?",
+        "ru": "Какой филиал\nудобнее?"
+      },
+      "text": {
+        "ka": "აირჩიე ფილიალი, რომელიც შენთან უფრო ახლოსაა, და ჩაეწერე ონლაინ.",
+        "en": "Pick the branch closest to you and book online.",
+        "ru": "Выбери филиал поближе и запишись онлайн."
+      },
+      "cta": "branches",
+      "cta2": "book",
+      "image": null,
+      "imageAlt": {
+        "ka": "",
+        "en": "",
+        "ru": ""
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "c-hair",
+      "suit": "spade",
+      "title": {
+        "ka": "თმა",
+        "en": "Hair",
+        "ru": "Волосы"
+      },
+      "todo": "ფასები და ხანგრძლივობა აღებულია Altegio-დან (15.11.2026) — გადაამოწმეთ კლიენტთან.",
+      "items": [
+        {
+          "id": "sv-haircut",
+          "name": {
+            "ka": "მამაკაცის შეჭრა",
+            "en": "Men’s haircut",
+            "ru": "Мужская стрижка"
+          },
+          "desc": {
+            "ka": "ნებისმიერი სირთულე: კლასიკა, ფეიდი, გრადიენტი.",
+            "en": "Any difficulty: classic, fade, taper.",
+            "ru": "Любая сложность: классика, фейд, градиент."
+          },
+          "duration": 60,
+          "price": "50",
+          "priceFrom": true
+        },
+        {
+          "id": "sv-clipper",
+          "name": {
+            "ka": "შეჭრა მანქანით",
+            "en": "Clipper cut",
+            "ru": "Стрижка машинкой"
+          },
+          "desc": {
+            "ka": "ერთი ან ორი საცმით.",
+            "en": "One or two guards.",
+            "ru": "Одна или две насадки."
+          },
+          "duration": 30,
+          "price": "30",
+          "priceFrom": true
+        },
+        {
+          "id": "sv-student",
+          "name": {
+            "ka": "სტუდენტური შეჭრა",
+            "en": "Student haircut",
+            "ru": "Студенческая стрижка"
+          },
+          "desc": {
+            "ka": "−20% სტუდენტის ბარათის ჩვენებით.",
+            "en": "20% off with a student ID.",
+            "ru": "−20% по студенческому билету."
+          },
+          "duration": 60,
+          "price": "40",
+          "priceFrom": false
+        },
+        {
+          "id": "sv-design",
+          "name": {
+            "ka": "კრეატიული დიზაინი თმაზე",
+            "en": "Creative hair design",
+            "ru": "Креативный дизайн"
+          },
+          "desc": {
+            "ka": "ნახატი ან ხაზები მანქანით.",
+            "en": "Patterns or lines with a clipper.",
+            "ru": "Рисунок или линии машинкой."
+          },
+          "duration": 0,
+          "price": "",
+          "priceFrom": false,
+          "todo": "ფასი და ხანგრძლივობა უცნობია (Altegio-ზე ეს სერვისი არ ჩანს)."
+        },
+        {
+          "id": "sv-haircam",
+          "name": {
+            "ka": "თმის კამუფლაჟი",
+            "en": "Hair camouflage",
+            "ru": "Камуфляж волос"
+          },
+          "desc": {
+            "ka": "ჭაღარის შენიღბვა; თმის სიგრძე 5 სმ-მდე.",
+            "en": "Grey blending; hair up to 5 cm long.",
+            "ru": "Камуфляж седины; длина волос до 5 см."
+          },
+          "duration": 30,
+          "price": "60",
+          "priceFrom": false
+        }
+      ]
+    },
+    {
+      "id": "c-beard",
+      "suit": "club",
+      "title": {
+        "ka": "წვერი და პარსვა",
+        "en": "Beard and shave",
+        "ru": "Борода и бритьё"
+      },
+      "items": [
+        {
+          "id": "sv-beard",
+          "name": {
+            "ka": "წვერის ფორმირება",
+            "en": "Beard trim",
+            "ru": "Оформление бороды"
+          },
+          "desc": {
+            "ka": "წვერისა და ულვაშის ფორმა და კონტური.",
+            "en": "Beard and moustache shape and outline.",
+            "ru": "Форма и контур бороды и усов."
+          },
+          "duration": 30,
+          "price": "30",
+          "priceFrom": true
+        },
+        {
+          "id": "sv-shave",
+          "name": {
+            "ka": "სამართებლით პარსვა",
+            "en": "Straight-razor shave",
+            "ru": "Бритьё опасной бритвой"
+          },
+          "desc": {
+            "ka": "კლასიკური პარსვა სამართებლით.",
+            "en": "A classic straight-razor shave.",
+            "ru": "Классическое бритьё опасной бритвой."
+          },
+          "duration": 45,
+          "price": "45",
+          "priceFrom": false
+        },
+        {
+          "id": "sv-beardcam",
+          "name": {
+            "ka": "წვერის კამუფლაჟი",
+            "en": "Beard camouflage",
+            "ru": "Камуфляж бороды"
+          },
+          "desc": {
+            "ka": "ჭაღარის შენიღბვა წვერზე.",
+            "en": "Grey blending for the beard.",
+            "ru": "Камуфляж седины на бороде."
+          },
+          "duration": 30,
+          "price": "50",
+          "priceFrom": false
+        }
+      ]
+    },
+    {
+      "id": "c-combo",
+      "suit": "heart",
+      "title": {
+        "ka": "კომბო",
+        "en": "Combos",
+        "ru": "Комбо"
+      },
+      "items": [
+        {
+          "id": "sv-combo",
+          "name": {
+            "ka": "შეჭრა + წვერი",
+            "en": "Haircut + beard",
+            "ru": "Стрижка + борода"
+          },
+          "desc": {
+            "ka": "სრული განახლება ერთ ვიზიტზე.",
+            "en": "A full refresh in one visit.",
+            "ru": "Полное обновление за один визит."
+          },
+          "duration": 90,
+          "price": "70",
+          "priceFrom": true
+        },
+        {
+          "id": "sv-combo2",
+          "name": {
+            "ka": "შეჭრა მანქანით + წვერი",
+            "en": "Clipper cut + beard",
+            "ru": "Машинка + борода"
+          },
+          "desc": {
+            "ka": "სწრაფი ვარიანტი.",
+            "en": "The quick option.",
+            "ru": "Быстрый вариант."
+          },
+          "duration": 60,
+          "price": "55",
+          "priceFrom": true
+        },
+        {
+          "id": "sv-fatherson",
+          "name": {
+            "ka": "მამა + შვილი",
+            "en": "Father + son",
+            "ru": "Папа + сын"
+          },
+          "desc": {
+            "ka": "ორი შეჭრა ერთ ვიზიტზე.",
+            "en": "Two haircuts in one visit.",
+            "ru": "Две стрижки за один визит."
+          },
+          "duration": 90,
+          "price": "80",
+          "priceFrom": false
+        }
+      ]
+    },
+    {
+      "id": "c-kids",
+      "suit": "diamond",
+      "title": {
+        "ka": "ბავშვი",
+        "en": "Kids",
+        "ru": "Детям"
+      },
+      "items": [
+        {
+          "id": "sv-kids",
+          "name": {
+            "ka": "ბავშვის შეჭრა",
+            "en": "Kids haircut",
+            "ru": "Детская стрижка"
+          },
+          "desc": {
+            "ka": "12 წლამდე.",
+            "en": "Up to 12 years old.",
+            "ru": "До 12 лет."
+          },
+          "duration": 60,
+          "price": "40",
+          "priceFrom": true
+        }
+      ]
+    },
+    {
+      "id": "c-extra",
+      "suit": "star",
+      "title": {
+        "ka": "დამატებითი",
+        "en": "Extras",
+        "ru": "Дополнительно"
+      },
+      "items": [
+        {
+          "id": "sv-styling",
+          "name": {
+            "ka": "სტაილინგი",
+            "en": "Hair styling",
+            "ru": "Укладка"
+          },
+          "desc": {
+            "ka": "დაბანა და დავარცხნა პროფესიული კოსმეტიკით.",
+            "en": "Wash and style with professional products.",
+            "ru": "Мытьё и укладка профессиональной косметикой."
+          },
+          "duration": 15,
+          "price": "20",
+          "priceFrom": false,
+          "todo": "აღწერა პირობითია — გადაამოწმეთ, რას მოიცავს სტაილინგი."
+        },
+        {
+          "id": "sv-spa",
+          "name": {
+            "ka": "არაბული სპა",
+            "en": "Arabian spa",
+            "ru": "Арабское спа"
+          },
+          "desc": {
+            "ka": "თავის კანის წმენდა და დატენიანება.",
+            "en": "Scalp cleansing and moisturising.",
+            "ru": "Очищение и увлажнение кожи головы."
+          },
+          "duration": 15,
+          "price": "40",
+          "priceFrom": false
+        },
+        {
+          "id": "sv-scrub",
+          "name": {
+            "ka": "სკრაბი + შავი ნიღაბი",
+            "en": "Scrub + black mask",
+            "ru": "Скраб + чёрная маска"
+          },
+          "desc": {
+            "ka": "სახის კანის წმენდა.",
+            "en": "Deep cleansing for the face.",
+            "ru": "Глубокое очищение кожи лица."
+          },
+          "duration": 60,
+          "price": "30",
+          "priceFrom": false,
+          "todo": "Altegio-ზე ხანგრძლივობა 1 საათია — გადაამოწმეთ."
+        },
+        {
+          "id": "sv-mask",
+          "name": {
+            "ka": "შავი ნიღაბი",
+            "en": "Black mask",
+            "ru": "Чёрная маска"
+          },
+          "desc": {
+            "ka": "მხოლოდ შეჭრასთან ერთად.",
+            "en": "Only together with a haircut.",
+            "ru": "Только вместе со стрижкой."
+          },
+          "duration": 5,
+          "price": "15",
+          "priceFrom": false
+        },
+        {
+          "id": "sv-brows",
+          "name": {
+            "ka": "წარბების კორექცია",
+            "en": "Eyebrow shaping",
+            "ru": "Коррекция бровей"
+          },
+          "desc": {
+            "ka": "",
+            "en": "",
+            "ru": ""
+          },
+          "duration": 20,
+          "price": "20",
+          "priceFrom": false
+        },
+        {
+          "id": "sv-wax",
+          "name": {
+            "ka": "ვაქსი, 1 ზონა",
+            "en": "Wax, 1 zone",
+            "ru": "Воск, 1 зона"
+          },
+          "desc": {
+            "ka": "",
+            "en": "",
+            "ru": ""
+          },
+          "duration": 5,
+          "price": "10",
+          "priceFrom": false
+        }
+      ]
+    }
+  ],
+  "barbers": [
+    {
+      "id": "b-oksana",
+      "name": {
+        "ka": "ოქსანა",
+        "en": "Oksana",
+        "ru": "Оксана"
+      },
+      "role": {
+        "ka": "უფროსი ბარბერი",
+        "en": "Senior barber",
+        "ru": "Старший барбер"
+      },
+      "branchId": "kazbegi",
+      "specialties": {
+        "ka": "შეჭრა · ფეიდი · წვერის ფორმირება",
+        "en": "Haircuts · fades · beard trims",
+        "ru": "Стрижки · фейд · борода"
+      },
+      "languages": [
+        "ru",
+        "en",
+        "tr",
+        "uk"
+      ],
+      "photo": null,
+      "bookable": true,
+      "bookingUrl": "",
+      "todo": "ფოტო მოსაწოდებელია. ფილიალი და ენები აღებულია Altegio-დან; სპეციალობა პირობითია."
+    },
+    {
+      "id": "b-giorgi",
+      "name": {
+        "ka": "გიორგი",
+        "en": "Giorgi",
+        "ru": "Гиорги"
+      },
+      "role": {
+        "ka": "უფროსი ბარბერი",
+        "en": "Senior barber",
+        "ru": "Старший барбер"
+      },
+      "branchId": "kazbegi",
+      "specialties": {
+        "ka": "შეჭრა · ფეიდი · წვერის ფორმირება",
+        "en": "Haircuts · fades · beard trims",
+        "ru": "Стрижки · фейд · борода"
+      },
+      "languages": [
+        "ka",
+        "en"
+      ],
+      "photo": null,
+      "bookable": true,
+      "bookingUrl": "",
+      "todo": "ფოტო მოსაწოდებელია. როლი, ფილიალი და ენები აღებულია Altegio-დან; სპეციალობა პირობითია."
+    },
+    {
+      "id": "b-elene",
+      "name": {
+        "ka": "ელენე",
+        "en": "Elene",
+        "ru": "Элене"
+      },
+      "role": {
+        "ka": "ბარბერი",
+        "en": "Barber",
+        "ru": "Барбер"
+      },
+      "branchId": "bakhtrioni",
+      "specialties": {
+        "ka": "შეჭრა · ფეიდი · წვერის ფორმირება",
+        "en": "Haircuts · fades · beard trims",
+        "ru": "Стрижки · фейд · борода"
+      },
+      "languages": [
+        "ka",
+        "ru",
+        "en",
+        "hy"
+      ],
+      "photo": null,
+      "bookable": true,
+      "bookingUrl": "",
+      "todo": "ფოტო მოსაწოდებელია. ფილიალი და ენები აღებულია Altegio-დან (გადაამოწმეთ, რომელი ელენეა); სპეციალობა პირობითია."
+    },
+    {
+      "id": "b-mari",
+      "name": {
+        "ka": "მარი",
+        "en": "Mari",
+        "ru": "Мари"
+      },
+      "role": {
+        "ka": "ადმინისტრატორი",
+        "en": "Administrator",
+        "ru": "Администратор"
+      },
+      "branchId": "",
+      "specialties": {
+        "ka": "ჩაწერა · კონსულტაცია · თბილი დახვედრა",
+        "en": "Bookings · advice · a warm welcome",
+        "ru": "Запись · консультация · тёплый приём"
+      },
+      "languages": [],
+      "photo": null,
+      "bookable": false,
+      "bookingUrl": "",
+      "todo": "ფოტო მოსაწოდებელია. ფილიალი და ენები უცნობია — მიუთითეთ."
+    }
+  ],
+  "branches": [
+    {
+      "id": "bakhtrioni",
+      "suit": "spade",
+      "name": {
+        "ka": "ბახტრიონი",
+        "en": "Bakhtrioni",
+        "ru": "Бахтриони"
+      },
+      "address": {
+        "ka": "ბახტრიონის ქ. 22",
+        "en": "22 Bakhtrioni St.",
+        "ru": "ул. Бахтриони, 22"
+      },
+      "hint": {
+        "ka": "მეტრო „ტექნიკური უნივერსიტეტი“-სთან",
+        "en": "Near Technical University metro",
+        "ru": "Рядом с метро «Технический университет»"
+      },
+      "lat": 41.72015,
+      "lng": 44.76568,
+      "phone": "+995 558 43 63 68",
+      "whatsapp": "",
+      "bookingUrl": "https://n789845.alteg.io/company/733376/personal/menu",
+      "hours": [
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        }
+      ],
+      "rating": "4.9",
+      "reviewsCount": "146"
+    },
+    {
+      "id": "kazbegi",
+      "suit": "diamond",
+      "name": {
+        "ka": "ყაზბეგი",
+        "en": "Kazbegi",
+        "ru": "Казбеги"
+      },
+      "address": {
+        "ka": "ალ. ყაზბეგის გამზ. 31ა",
+        "en": "31a Al. Kazbegi Ave.",
+        "ru": "пр. Ал. Казбеги, 31а"
+      },
+      "hint": {
+        "ka": "",
+        "en": "",
+        "ru": ""
+      },
+      "lat": 41.72539,
+      "lng": 44.75021,
+      "phone": "+995 555 42 15 20",
+      "whatsapp": "",
+      "bookingUrl": "https://n789845.alteg.io/company/1308439/personal/menu",
+      "hours": [
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        }
+      ],
+      "rating": "4.8",
+      "reviewsCount": "58",
+      "todo": "ორიენტირი (მაგ. მეტრო ან ცნობილი ადგილი) არ არის მითითებული."
+    },
+    {
+      "id": "paliashvili",
+      "suit": "club",
+      "hidden": true,
+      "name": {
+        "ka": "ფალიაშვილი",
+        "en": "Paliashvili",
+        "ru": "Палиашвили"
+      },
+      "address": {
+        "ka": "ზ. ფალიაშვილის ქ. 60",
+        "en": "60 Z. Paliashvili St.",
+        "ru": "ул. З. Палиашвили, 60"
+      },
+      "hint": {
+        "ka": "",
+        "en": "",
+        "ru": ""
+      },
+      "lat": 0,
+      "lng": 0,
+      "phone": "",
+      "whatsapp": "",
+      "bookingUrl": "https://n789845.alteg.io/company/1402828/personal/menu",
+      "hours": [
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        },
+        {
+          "open": "11:00",
+          "close": "21:00",
+          "closed": false
+        }
+      ],
+      "rating": "",
+      "reviewsCount": "",
+      "todo": "მესამე ფილიალი დამალულია. მისამართი აღებულია Altegio-დან და დასაზუსტებელია. შეავსეთ კოორდინატები, ტელეფონი და საათები, შემდეგ ჩართეთ „ჩანს საიტზე“."
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g-01",
+      "image": {
+        "src": "local:work-01"
+      },
+      "alt": {
+        "ka": "წვერის ფორმირება მაკრატლით",
+        "en": "Shaping a beard with scissors",
+        "ru": "Оформление бороды ножницами"
+      }
+    },
+    {
+      "id": "g-02",
+      "image": {
+        "src": "local:work-04"
+      },
+      "alt": {
+        "ka": "ფეიდი მანქანით",
+        "en": "A fade done with clippers",
+        "ru": "Фейд машинкой"
+      }
+    },
+    {
+      "id": "g-03",
+      "image": {
+        "src": "local:work-03"
+      },
+      "alt": {
+        "ka": "ბარბერშოპის სავარძლები აგურის კედელთან",
+        "en": "Barber chairs by a brick wall",
+        "ru": "Барберские кресла у кирпичной стены"
+      }
+    },
+    {
+      "id": "g-04",
+      "image": {
+        "src": "local:work-02"
+      },
+      "alt": {
+        "ka": "კონტურის გასწორება სამართებლით",
+        "en": "Lining up with a straight razor",
+        "ru": "Окантовка опасной бритвой"
+      }
+    },
+    {
+      "id": "g-05",
+      "image": {
+        "src": "local:work-05"
+      },
+      "alt": {
+        "ka": "შეჭრა მაკრატლით და სავარცხლით",
+        "en": "Scissor-over-comb haircut",
+        "ru": "Стрижка ножницами по расчёске"
+      }
+    },
+    {
+      "id": "g-06",
+      "image": {
+        "src": "local:work-07"
+      },
+      "alt": {
+        "ka": "ფეიდის დამუშავება",
+        "en": "Working on a fade",
+        "ru": "Работа над фейдом"
+      }
+    },
+    {
+      "id": "g-07",
+      "image": {
+        "src": "local:work-06"
+      },
+      "alt": {
+        "ka": "ბარბერის სავარძელი",
+        "en": "A barber chair",
+        "ru": "Барберское кресло"
+      }
+    },
+    {
+      "id": "g-08",
+      "image": {
+        "src": "local:work-08"
+      },
+      "alt": {
+        "ka": "თმის გათხელება მაკრატლით",
+        "en": "Thinning hair with shears",
+        "ru": "Филировка ножницами"
+      }
+    },
+    {
+      "id": "g-09",
+      "image": {
+        "src": "local:work-10"
+      },
+      "alt": {
+        "ka": "პარსვა სამართებლით",
+        "en": "A straight-razor shave",
+        "ru": "Бритьё опасной бритвой"
+      }
+    },
+    {
+      "id": "g-10",
+      "image": {
+        "src": "local:work-09"
+      },
+      "alt": {
+        "ka": "ბარბერშოპის დარბაზი",
+        "en": "The barbershop floor",
+        "ru": "Зал барбершопа"
+      }
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r-1",
+      "text": {
+        "ka": "მეგობრული და ნიჭიერი ბარბერები — ყოველ ჯერზე კმაყოფილი გამოვდივარ.",
+        "en": "Friendly, talented barbers. I leave happy every single time.",
+        "ru": "Дружелюбные и талантливые барберы — каждый раз ухожу довольным."
+      }
+    },
+    {
+      "id": "r-2",
+      "text": {
+        "ka": "კარგი ატმოსფერო და მუსიკა. დრო ისე გადის, ვერც ამჩნევ.",
+        "en": "Great atmosphere and music. The time just flies.",
+        "ru": "Отличная атмосфера и музыка. Время пролетает незаметно."
+      }
+    },
+    {
+      "id": "r-3",
+      "text": {
+        "ka": "ესმით, რა გინდა — ზედმეტი ახსნა არ გჭირდება.",
+        "en": "They get what you want without a long explanation.",
+        "ru": "Понимают, чего ты хочешь, — долго объяснять не приходится."
+      }
+    },
+    {
+      "id": "r-4",
+      "text": {
+        "ka": "რჩევასაც გაძლევენ, როგორ მოუარო თმას სახლში.",
+        "en": "They also tell you how to look after your hair at home.",
+        "ru": "Ещё и подскажут, как ухаживать за волосами дома."
+      }
+    },
+    {
+      "id": "r-5",
+      "text": {
+        "ka": "ქალაქში ჩემი პირველი არჩევანია.",
+        "en": "My first choice in the city.",
+        "ru": "Мой первый выбор в городе."
+      }
+    }
+  ],
+  "faq": [
+    {
+      "id": "f-1",
+      "q": {
+        "ka": "საჭიროა წინასწარ ჩაწერა?",
+        "en": "Do I need an appointment?",
+        "ru": "Нужно ли записываться заранее?"
+      },
+      "a": {
+        "ka": "სჯობს ჩაეწერო — ასე შენი დრო და ბარბერი გარანტირებულია. ონლაინ ჩაწერას ერთი წუთი სჭირდება; შეგიძლია WhatsApp-ზეც მოგვწერო ან დაგვირეკო.",
+        "en": "Booking is the safe way: your time and your barber are guaranteed. It takes a minute online, or message us on WhatsApp or call.",
+        "ru": "Лучше записаться — так твоё время и мастер гарантированы. Онлайн-запись занимает минуту; можно написать в WhatsApp или позвонить."
+      }
+    },
+    {
+      "id": "f-2",
+      "q": {
+        "ka": "შეიძლება ბარათით გადახდა?",
+        "en": "Can I pay by card?",
+        "ru": "Можно ли оплатить картой?"
+      },
+      "a": {
+        "ka": "კი, ვიღებთ როგორც ბარათს, ისე ნაღდ ფულს.",
+        "en": "Yes, we take both cards and cash.",
+        "ru": "Да, принимаем и карты, и наличные."
+      },
+      "todo": "პასუხი პირობითია — გადახდის ფორმები დასაზუსტებელია."
+    },
+    {
+      "id": "f-3",
+      "q": {
+        "ka": "ბავშვებსაც ჭრით?",
+        "en": "Do you cut kids’ hair?",
+        "ru": "Детей тоже стрижёте?"
+      },
+      "a": {
+        "ka": "კი. ბავშვის შეჭრა გვაქვს 12 წლამდე სტუმრებისთვის, არის „მამა + შვილი“ კომბოც.",
+        "en": "Yes. We do kids’ haircuts for guests up to 12, and there is a father + son combo too.",
+        "ru": "Да. Есть детская стрижка для гостей до 12 лет и комбо «папа + сын»."
+      }
+    },
+    {
+      "id": "f-4",
+      "q": {
+        "ka": "რამდენ ხანს გრძელდება ვიზიტი?",
+        "en": "How long does a visit take?",
+        "ru": "Сколько длится визит?"
+      },
+      "a": {
+        "ka": "შეჭრას დაახლოებით 1 საათი სჭირდება, წვერის ფორმირებას — 30 წუთი, შეჭრა + წვერს — საათ-ნახევარი.",
+        "en": "A haircut takes about 1 hour, a beard trim 30 minutes, and haircut + beard an hour and a half.",
+        "ru": "Стрижка занимает около часа, оформление бороды — 30 минут, стрижка + борода — полтора часа."
+      }
+    },
+    {
+      "id": "f-5",
+      "q": {
+        "ka": "რომელ ენებზე მემსახურებით?",
+        "en": "Which languages do you speak?",
+        "ru": "На каких языках вы говорите?"
+      },
+      "a": {
+        "ka": "ქართულად, რუსულად და ინგლისურად. ჩაწერისას თითოეული ბარბერის ენები მითითებულია.",
+        "en": "Georgian, Russian and English. Each barber’s languages are listed when you book.",
+        "ru": "На грузинском, русском и английском. При записи у каждого барбера указаны языки."
+      }
+    }
+  ],
+  "texts": {
+    "nav.services": {
+      "ka": "სერვისები და ფასები",
+      "en": "Services & Prices",
+      "ru": "Услуги и цены"
+    },
+    "nav.barbers": {
+      "ka": "ბარბერები",
+      "en": "Barbers",
+      "ru": "Барберы"
+    },
+    "nav.branches": {
+      "ka": "ფილიალები",
+      "en": "Branches",
+      "ru": "Филиалы"
+    },
+    "nav.works": {
+      "ka": "ნამუშევრები",
+      "en": "Our Work",
+      "ru": "Работы"
+    },
+    "nav.reviews": {
+      "ka": "შეფასებები",
+      "en": "Reviews",
+      "ru": "Отзывы"
+    },
+    "nav.contact": {
+      "ka": "კონტაქტი",
+      "en": "Contact",
+      "ru": "Контакты"
+    },
+    "nav.menu": {
+      "ka": "მენიუ",
+      "en": "Menu",
+      "ru": "Меню"
+    },
+    "nav.close": {
+      "ka": "დახურვა",
+      "en": "Close",
+      "ru": "Закрыть"
+    },
+    "nav.skip": {
+      "ka": "მთავარ შიგთავსზე გადასვლა",
+      "en": "Skip to content",
+      "ru": "Перейти к содержанию"
+    },
+    "nav.main": {
+      "ka": "მთავარი ნავიგაცია",
+      "en": "Main navigation",
+      "ru": "Основная навигация"
+    },
+    "nav.lang": {
+      "ka": "ენა",
+      "en": "Language",
+      "ru": "Язык"
+    },
+    "nav.home": {
+      "ka": "მთავარი გვერდი",
+      "en": "Home",
+      "ru": "Главная"
+    },
+    "cta.book": {
+      "ka": "ჩაწერა",
+      "en": "Book Now",
+      "ru": "Записаться"
+    },
+    "cta.bookOnline": {
+      "ka": "ონლაინ ჩაწერა",
+      "en": "Book Online",
+      "ru": "Онлайн-запись"
+    },
+    "cta.whatsapp": {
+      "ka": "მოგვწერე WhatsApp-ზე",
+      "en": "Message on WhatsApp",
+      "ru": "Написать в WhatsApp"
+    },
+    "cta.directions": {
+      "ka": "მიმართულება",
+      "en": "Get Directions",
+      "ru": "Маршрут"
+    },
+    "cta.bookHere": {
+      "ka": "ჩაწერა ამ ფილიალში",
+      "en": "Book at This Branch",
+      "ru": "Записаться в этот филиал"
+    },
+    "cta.bookWith": {
+      "ka": "ჩაეწერე მასთან",
+      "en": "Book With {name}",
+      "ru": "Записаться к мастеру"
+    },
+    "cta.moreInstagram": {
+      "ka": "მეტი Instagram-ზე",
+      "en": "More on Instagram",
+      "ru": "Больше в Instagram"
+    },
+    "cta.call": {
+      "ka": "დარეკვა",
+      "en": "Call",
+      "ru": "Позвонить"
+    },
+    "hero.label": {
+      "ka": "მთავარი სლაიდები",
+      "en": "Highlights",
+      "ru": "Главное"
+    },
+    "hero.prev": {
+      "ka": "წინა სლაიდი",
+      "en": "Previous slide",
+      "ru": "Предыдущий слайд"
+    },
+    "hero.next": {
+      "ka": "შემდეგი სლაიდი",
+      "en": "Next slide",
+      "ru": "Следующий слайд"
+    },
+    "hero.pause": {
+      "ka": "ავტომატური გადართვის შეჩერება",
+      "en": "Pause auto-play",
+      "ru": "Остановить автопрокрутку"
+    },
+    "hero.play": {
+      "ka": "ავტომატური გადართვის ჩართვა",
+      "en": "Resume auto-play",
+      "ru": "Включить автопрокрутку"
+    },
+    "hero.slideOf": {
+      "ka": "სლაიდი {n}, სულ {total}",
+      "en": "Slide {n} of {total}",
+      "ru": "Слайд {n} из {total}"
+    },
+    "hero.goto": {
+      "ka": "სლაიდზე გადასვლა: {n}",
+      "en": "Go to slide {n}",
+      "ru": "Перейти к слайду {n}"
+    },
+    "slogan.1": {
+      "ka": "მშვიდობა",
+      "en": "Peace",
+      "ru": "Мир"
+    },
+    "slogan.2": {
+      "ka": "მეგობრობა",
+      "en": "Friendship",
+      "ru": "Дружба"
+    },
+    "slogan.3": {
+      "ka": "შეჭრა",
+      "en": "Haircut",
+      "ru": "Стрижка"
+    },
+    "status.open": {
+      "ka": "ღიაა ახლა",
+      "en": "Open now",
+      "ru": "Открыто"
+    },
+    "status.closing": {
+      "ka": "მალე იხურება",
+      "en": "Closing soon",
+      "ru": "Скоро закрытие"
+    },
+    "status.closed": {
+      "ka": "ახლა დაკეტილია",
+      "en": "Closed now",
+      "ru": "Сейчас закрыто"
+    },
+    "status.until": {
+      "ka": "{time}-მდე",
+      "en": "until {time}",
+      "ru": "до {time}"
+    },
+    "status.opensToday": {
+      "ka": "იხსნება {time}-ზე",
+      "en": "opens at {time}",
+      "ru": "откроется в {time}"
+    },
+    "status.opensTomorrow": {
+      "ka": "იხსნება ხვალ {time}-ზე",
+      "en": "opens tomorrow at {time}",
+      "ru": "откроется завтра в {time}"
+    },
+    "status.opensLater": {
+      "ka": "იხსნება: {day}, {time}",
+      "en": "opens {day} at {time}",
+      "ru": "откроется: {day}, {time}"
+    },
+    "hours.everyday": {
+      "ka": "ყოველდღე",
+      "en": "Every day",
+      "ru": "Ежедневно"
+    },
+    "hours.closed": {
+      "ka": "დასვენება",
+      "en": "Closed",
+      "ru": "Выходной"
+    },
+    "hours.title": {
+      "ka": "სამუშაო საათები",
+      "en": "Opening hours",
+      "ru": "Часы работы"
+    },
+    "day.0": {
+      "ka": "ორშ",
+      "en": "Mon",
+      "ru": "Пн"
+    },
+    "day.1": {
+      "ka": "სამ",
+      "en": "Tue",
+      "ru": "Вт"
+    },
+    "day.2": {
+      "ka": "ოთხ",
+      "en": "Wed",
+      "ru": "Ср"
+    },
+    "day.3": {
+      "ka": "ხუთ",
+      "en": "Thu",
+      "ru": "Чт"
+    },
+    "day.4": {
+      "ka": "პარ",
+      "en": "Fri",
+      "ru": "Пт"
+    },
+    "day.5": {
+      "ka": "შაბ",
+      "en": "Sat",
+      "ru": "Сб"
+    },
+    "day.6": {
+      "ka": "კვი",
+      "en": "Sun",
+      "ru": "Вс"
+    },
+    "services.kicker": {
+      "ka": "მენიუ",
+      "en": "The menu",
+      "ru": "Меню"
+    },
+    "services.title": {
+      "ka": "სერვისები და ფასები",
+      "en": "Services & Prices",
+      "ru": "Услуги и цены"
+    },
+    "services.lead": {
+      "ka": "ყველაფერი, რაც თმასა და წვერს სჭირდება. აირჩიე სერვისი და ჩაეწერე.",
+      "en": "Everything your hair and beard need. Pick a service and book.",
+      "ru": "Всё, что нужно волосам и бороде. Выбери услугу и запишись."
+    },
+    "services.note": {
+      "ka": "ფასი დამოკიდებულია ბარბერის კატეგორიაზე: ბარბერი, უფროსი ბარბერი ან არტ-დირექტორი. ზუსტ ფასს ნახავ ონლაინ ჩაწერისას.",
+      "en": "Prices depend on the barber’s level: barber, senior barber or art director. You see the exact price when you book online.",
+      "ru": "Цена зависит от категории мастера: барбер, старший барбер или арт-директор. Точную стоимость видно при онлайн-записи."
+    },
+    "price.from": {
+      "ka": "{price}-დან",
+      "en": "from {price}",
+      "ru": "от {price}"
+    },
+    "price.onRequest": {
+      "ka": "შეთანხმებით",
+      "en": "On request",
+      "ru": "По запросу"
+    },
+    "duration.min": {
+      "ka": "{n} წთ",
+      "en": "{n} min",
+      "ru": "{n} мин"
+    },
+    "duration.h": {
+      "ka": "{n} სთ",
+      "en": "{n} h",
+      "ru": "{n} ч"
+    },
+    "barbers.kicker": {
+      "ka": "გუნდი",
+      "en": "The crew",
+      "ru": "Команда"
+    },
+    "barbers.title": {
+      "ka": "ბარბერები",
+      "en": "Barbers",
+      "ru": "Барберы"
+    },
+    "barbers.lead": {
+      "ka": "ნიჭიერი ხელები და მეგობრული ხასიათი. გადააბრუნე კარტი და გაიცანი.",
+      "en": "Talented hands and friendly faces. Flip a card to meet them.",
+      "ru": "Талантливые руки и дружелюбный характер. Переверни карту и познакомься."
+    },
+    "barbers.all": {
+      "ka": "ყველა",
+      "en": "All",
+      "ru": "Все"
+    },
+    "barbers.filter": {
+      "ka": "ფილტრი ფილიალის მიხედვით",
+      "en": "Filter by branch",
+      "ru": "Фильтр по филиалу"
+    },
+    "barbers.specialty": {
+      "ka": "სპეციალობა",
+      "en": "Specialty",
+      "ru": "Специализация"
+    },
+    "barbers.languages": {
+      "ka": "ენები",
+      "en": "Languages",
+      "ru": "Языки"
+    },
+    "barbers.branch": {
+      "ka": "ფილიალი",
+      "en": "Branch",
+      "ru": "Филиал"
+    },
+    "barbers.flip": {
+      "ka": "კარტის გადაბრუნება: {name}",
+      "en": "Flip card: {name}",
+      "ru": "Перевернуть карту: {name}"
+    },
+    "barbers.empty": {
+      "ka": "ამ ფილიალის გუნდს მალე დავამატებთ.",
+      "en": "This branch’s crew will be added soon.",
+      "ru": "Команду этого филиала скоро добавим."
+    },
+    "lang.ka": {
+      "ka": "ქართული",
+      "en": "Georgian",
+      "ru": "грузинский"
+    },
+    "lang.en": {
+      "ka": "ინგლისური",
+      "en": "English",
+      "ru": "английский"
+    },
+    "lang.ru": {
+      "ka": "რუსული",
+      "en": "Russian",
+      "ru": "русский"
+    },
+    "lang.hy": {
+      "ka": "სომხური",
+      "en": "Armenian",
+      "ru": "армянский"
+    },
+    "lang.az": {
+      "ka": "აზერბაიჯანული",
+      "en": "Azerbaijani",
+      "ru": "азербайджанский"
+    },
+    "lang.tr": {
+      "ka": "თურქული",
+      "en": "Turkish",
+      "ru": "турецкий"
+    },
+    "lang.uk": {
+      "ka": "უკრაინული",
+      "en": "Ukrainian",
+      "ru": "украинский"
+    },
+    "lang.de": {
+      "ka": "გერმანული",
+      "en": "German",
+      "ru": "немецкий"
+    },
+    "branches.kicker": {
+      "ka": "სად ვართ",
+      "en": "Find us",
+      "ru": "Где мы"
+    },
+    "branches.title": {
+      "ka": "ფილიალები",
+      "en": "Branches",
+      "ru": "Филиалы"
+    },
+    "branches.lead": {
+      "ka": "აირჩიე, რომელი უფრო ახლოსაა — ყველგან ერთნაირად გელოდებით.",
+      "en": "Pick the closest one. The welcome is the same everywhere.",
+      "ru": "Выбирай, какой ближе, — рады везде одинаково."
+    },
+    "branches.reviews": {
+      "ka": "{count} შეფასება",
+      "en": "{count} reviews",
+      "ru": "{count} отзывов"
+    },
+    "branches.mapOpen": {
+      "ka": "რუკაზე გახსნა: {name}",
+      "en": "Open the map: {name}",
+      "ru": "Открыть карту: {name}"
+    },
+    "branches.mapInteractive": {
+      "ka": "ინტერაქტიული რუკა",
+      "en": "Interactive Map",
+      "ru": "Интерактивная карта"
+    },
+    "gallery.kicker": {
+      "ka": "გალერეა",
+      "en": "Gallery",
+      "ru": "Галерея"
+    },
+    "gallery.title": {
+      "ka": "ნამუშევრები",
+      "en": "Our Work",
+      "ru": "Наши работы"
+    },
+    "gallery.lead": {
+      "ka": "ცოტა ატმოსფერო და ხელწერა. დანარჩენი Instagram-ზეა.",
+      "en": "A little atmosphere and craft. The rest is on Instagram.",
+      "ru": "Немного атмосферы и почерка. Остальное — в Instagram."
+    },
+    "gallery.open": {
+      "ka": "ფოტოს გადიდება: {alt}",
+      "en": "Enlarge photo: {alt}",
+      "ru": "Увеличить фото: {alt}"
+    },
+    "gallery.prev": {
+      "ka": "წინა ფოტო",
+      "en": "Previous photo",
+      "ru": "Предыдущее фото"
+    },
+    "gallery.next": {
+      "ka": "შემდეგი ფოტო",
+      "en": "Next photo",
+      "ru": "Следующее фото"
+    },
+    "gallery.dialog": {
+      "ka": "ფოტოს ნახვა",
+      "en": "Photo viewer",
+      "ru": "Просмотр фото"
+    },
+    "gallery.credit": {
+      "ka": "ფოტოები: Unsplash",
+      "en": "Photos: Unsplash",
+      "ru": "Фото: Unsplash"
+    },
+    "reviews.kicker": {
+      "ka": "შეფასებები",
+      "en": "Reviews",
+      "ru": "Отзывы"
+    },
+    "reviews.title": {
+      "ka": "რას ამბობენ სტუმრები",
+      "en": "What Guests Say",
+      "ru": "Что говорят гости"
+    },
+    "reviews.count": {
+      "ka": "{count} შეფასება",
+      "en": "{count} reviews",
+      "ru": "{count} отзывов"
+    },
+    "reviews.source": {
+      "ka": "სტუმრების ონლაინ შეფასებებიდან",
+      "en": "From guests’ online reviews",
+      "ru": "Из онлайн-отзывов гостей"
+    },
+    "reviews.prev": {
+      "ka": "წინა შეფასება",
+      "en": "Previous review",
+      "ru": "Предыдущий отзыв"
+    },
+    "reviews.next": {
+      "ka": "შემდეგი შეფასება",
+      "en": "Next review",
+      "ru": "Следующий отзыв"
+    },
+    "reviews.ratingLabel": {
+      "ka": "საშუალო შეფასება {value} ხუთიდან",
+      "en": "Average rating {value} out of 5",
+      "ru": "Средняя оценка {value} из 5"
+    },
+    "faq.kicker": {
+      "ka": "კითხვები",
+      "en": "FAQ",
+      "ru": "Вопросы"
+    },
+    "faq.title": {
+      "ka": "ხშირი კითხვები",
+      "en": "Frequent Questions",
+      "ru": "Частые вопросы"
+    },
+    "faq.lead": {
+      "ka": "ვერ იპოვე პასუხი? მოგვწერე — სიამოვნებით გიპასუხებთ.",
+      "en": "No answer here? Message us and we will help.",
+      "ru": "Не нашёл ответ? Напиши нам — с радостью подскажем."
+    },
+    "footer.ctaTitle": {
+      "ka": "მოდი როგორც კლიენტი —\nწადი როგორც მეგობარი",
+      "en": "Come as a client —\nleave as a friend",
+      "ru": "Приходи клиентом —\nуходи другом"
+    },
+    "footer.ctaText": {
+      "ka": "ჩაეწერე ონლაინ ან უბრალოდ მოგვწერე.",
+      "en": "Book online or just send us a message.",
+      "ru": "Запишись онлайн или просто напиши нам."
+    },
+    "footer.tagline": {
+      "ka": "ბარბერშოპი თბილისში",
+      "en": "Barbershop in Tbilisi",
+      "ru": "Барбершоп в Тбилиси"
+    },
+    "footer.branches": {
+      "ka": "ფილიალები",
+      "en": "Branches",
+      "ru": "Филиалы"
+    },
+    "footer.social": {
+      "ka": "სოციალური ქსელები",
+      "en": "Social",
+      "ru": "Соцсети"
+    },
+    "footer.nav": {
+      "ka": "ნავიგაცია",
+      "en": "Navigation",
+      "ru": "Навигация"
+    },
+    "footer.rights": {
+      "ka": "ყველა უფლება დაცულია",
+      "en": "All rights reserved",
+      "ru": "Все права защищены"
+    },
+    "footer.credit": {
+      "ka": "საიტი:",
+      "en": "Website by",
+      "ru": "Сайт:"
+    },
+    "footer.top": {
+      "ka": "ზემოთ",
+      "en": "Back to top",
+      "ru": "Наверх"
+    },
+    "dialog.bookTitle": {
+      "ka": "რომელ ფილიალში ჩაგწეროთ?",
+      "en": "Which Branch?",
+      "ru": "В какой филиал записать?"
+    },
+    "dialog.bookText": {
+      "ka": "ჩაწერა გრძელდება Altegio-ზე, ახალ ფანჯარაში.",
+      "en": "Booking continues on Altegio in a new tab.",
+      "ru": "Запись продолжится в Altegio, в новой вкладке."
+    },
+    "dialog.waTitle": {
+      "ka": "რომელ ფილიალს მივწეროთ?",
+      "en": "Which Branch to Message?",
+      "ru": "В какой филиал написать?"
+    },
+    "dialog.waText": {
+      "ka": "WhatsApp გაიხსნება მზა შეტყობინებით.",
+      "en": "WhatsApp opens with a ready message.",
+      "ru": "WhatsApp откроется с готовым сообщением."
+    },
+    "wa.message": {
+      "ka": "გამარჯობა! მინდა ჩავეწერო JOKER Barbershop-ში ({branch}).",
+      "en": "Hi! I would like to book at JOKER Barbershop ({branch}).",
+      "ru": "Здравствуйте! Хочу записаться в JOKER Barbershop ({branch})."
+    },
+    "a11y.newTab": {
+      "ka": "იხსნება ახალ ფანჯარაში",
+      "en": "opens in a new tab",
+      "ru": "откроется в новой вкладке"
+    },
+    "a11y.phone": {
+      "ka": "ტელეფონი",
+      "en": "Phone",
+      "ru": "Телефон"
+    },
+    "float.label": {
+      "ka": "სწრაფი მოქმედებები",
+      "en": "Quick actions",
+      "ru": "Быстрые действия"
+    }
+  }
+}

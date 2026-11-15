@@ -1,0 +1,35 @@
+{
+  "name": "joker-barbershop",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "JOKER Barbershop · ჯოკერი — საიტი + ადმინ პანელი (Vite + TypeScript + Supabase)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test \"tests/*.test.ts\"",
+    "images": "node scripts/optimize-images.mjs",
+    "fonts": "node scripts/build-fonts.mjs",
+    "icons": "node scripts/make-icons.mjs",
+    "og": "node scripts/make-og.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0"
+  },
+  "devDependencies": {
+    "fontkit": "^3.0.0",
+    "sharp": "^0.35.5",
+    "subset-font": "^2.9.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "@fontsource-variable/noto-serif": "^5.3.0",
+    "@fontsource-variable/noto-serif-georgian": "^5.3.0",
+    "@fontsource-variable/noto-sans-georgian": "^5.3.0",
+    "@fontsource/firago": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}
