@@ -98,6 +98,14 @@ create policy "admins: საკუთარი სტრიქონი"
   on public.admins for select to authenticated
   using (user_id = auth.uid());
 
+-- უფლებები Data API-ს როლებისთვის. ახალ პროექტებში „Automatically expose new tables"
+-- შეიძლება გამორთული იყოს, ამიტომ უფლებებს ცხადად ვაძლევთ (RLS მაინც ზემოდან მოქმედებს).
+grant usage on schema public to anon, authenticated;
+grant select on public.content to anon, authenticated;
+grant insert, update, delete on public.content to authenticated;
+grant select on public.admins to authenticated;
+grant execute on function public.is_admin() to anon, authenticated;
+
 -- 4. ფოტოების საცავი ─────────────────────────────────────────────────────────
 -- საჯარო bucket: ფოტო იხსნება ბმულით; ატვირთვა/შეცვლა/წაშლა — მხოლოდ ადმინს.
 insert into storage.buckets (id, name, public)
