@@ -1,0 +1,131 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   ადმინ პანელის სტილი. ფერები, ფონტები და ღილაკები საიტისაა (site.css),
+   აქ მხოლოდ ადმინის განლაგება და ფორმებია. მობილურზე ყველა ზონა ≥ 44px.
+   ═══════════════════════════════════════════════════════════════════════════ */
+@import '../styles/site.css';
+
+body { padding-bottom: 96px; }
+/* grid-ის შვილი ნაგულისხმევად შიგთავსზე ვიწრო ვერ ხდება — minmax(0, 1fr) კრძალავს გვერდის გაგანიერებას ტელეფონზე */
+.view, .list, .box, .note, .nested, .item__body, .imgrow__act { grid-template-columns: minmax(0, 1fr); }
+/* ადმინში გრძელი ქართული წარწერა ღილაკზე გადადის ახალ ხაზზე და არ სცდება ეკრანს */
+#admin .btn { white-space: normal; text-align: center; line-height: 1.25; padding-block: 8px; }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* — ღილაკების დამატებითი ვარიანტები — */
+.btn--ghost { background: transparent; border-color: var(--rule-2); color: var(--ink); }
+.btn--ghost:hover { border-color: var(--ink); }
+.btn--ghost-inv { background: transparent; border-color: var(--on-ink-2); color: var(--on-ink); }
+.btn--ghost-inv:hover { border-color: var(--on-ink); }
+.btn--danger { background: transparent; border-color: var(--red); color: var(--red); }
+.btn--danger:hover { background: var(--red); color: var(--on-red); }
+.btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; }
+
+/* — ზედა ზოლი — */
+.top { position: sticky; top: 0; z-index: 30; display: flex; align-items: center; gap: 10px; min-height: 64px; padding: 8px var(--gutter); background: var(--ink); color: var(--on-ink); }
+.top__logo { display: flex; align-items: baseline; gap: 8px; margin-right: auto; font: 800 22px/1 var(--font-display); letter-spacing: 0.02em; }
+.top__logo span { font: 600 11px/1 var(--font-text); letter-spacing: 0.14em; text-transform: uppercase; color: var(--on-ink-2); }
+.mode { padding: 7px 10px; border: 1.5px solid var(--on-ink-2); border-radius: 999px; font: 600 11.5px/1 var(--font-text); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }
+.mode--demo { border-color: var(--red-hot); color: var(--red-hot); }
+.top .btn { min-height: 44px; padding: 0 14px; font-size: 12.5px; }
+
+/* — ჩანართები — */
+.tabs { position: sticky; top: 64px; z-index: 20; display: flex; gap: 6px; overflow-x: auto; padding: 10px var(--gutter); background: var(--paper); border-bottom: 1px solid var(--rule); scrollbar-width: thin; overscroll-behavior-x: contain; }
+.tab { flex: none; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 14px; border: 1.5px solid var(--rule-2); border-radius: 999px; background: transparent; font: 600 14px/1 var(--font-text); white-space: nowrap; }
+.tab:hover { border-color: var(--ink); }
+.tab[aria-current='page'] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.badge { display: inline-flex; align-items: center; min-height: 22px; padding: 0 8px; border-radius: 999px; background: var(--rule); color: var(--ink); font: 600 11.5px/1 var(--font-text); white-space: nowrap; }
+.badge--todo { background: #f6d98b; color: #4a3500; }
+
+.langbar { display: flex; align-items: center; gap: 8px; padding: 12px var(--gutter) 0; width: min(100%, 880px + 2 * var(--gutter)); margin-inline: auto; font-size: 14px; color: var(--ink-2); }
+.langbtn { min-width: 48px; min-height: 44px; border: 1.5px solid var(--ink); border-radius: 10px; background: transparent; font: 600 13px/1 var(--font-text); letter-spacing: 0.06em; }
+.langbtn:hover { background: var(--rule); }
+.langbtn[aria-pressed='true'] { background: var(--red); border-color: var(--red); color: var(--on-red); }
+
+/* — ხედი — */
+#view { width: min(100% - 2 * var(--gutter), 880px); margin: 16px auto 0; }
+.view { display: grid; gap: 16px; }
+.view h1 { font: 800 clamp(30px, 6vw, 44px)/1 var(--font-display); text-transform: uppercase; }
+.help { font-size: 15px; color: var(--ink-2); }
+.box { display: grid; gap: 14px; padding: 18px; background: var(--card); border: 1.5px solid var(--ink); border-radius: 16px; }
+.box h2 { font: 800 22px/1.1 var(--font-display); text-transform: uppercase; }
+.box p { font-size: 15px; color: var(--ink-2); }
+.box--demo { border-color: var(--red); }
+.box .btn, .note .btn { justify-self: start; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; }
+.stat { display: grid; gap: 4px; padding: 14px; text-align: left; background: var(--card); border: 1.5px solid var(--rule-2); border-radius: 14px; }
+.stat:hover { border-color: var(--ink); }
+.stat b { font: 800 30px/1 var(--font-display); }
+.stat span { font-size: 13.5px; color: var(--ink-2); }
+.todos { display: grid; gap: 8px; }
+.todos button { display: grid; gap: 2px; width: 100%; min-height: 44px; padding: 12px 14px; text-align: left; border: 1px solid var(--rule-2); border-radius: 12px; background: transparent; }
+.todos button:hover { border-color: var(--ink); }
+.todos strong { font-size: 15px; overflow-wrap: anywhere; }
+.todos span { font-size: 14px; color: var(--ink-2); }
+
+/* — სიის ელემენტი — */
+.list { display: grid; gap: 10px; }
+.item { background: var(--card); border: 1.5px solid var(--ink); border-radius: 14px; }
+.item.is-hidden { border-style: dashed; }
+.item > summary { display: flex; align-items: center; gap: 10px; min-height: 60px; padding: 8px 10px 8px 14px; cursor: pointer; list-style: none; }
+.item > summary::-webkit-details-marker { display: none; }
+.item > summary:hover .item__t { color: var(--red); }
+.item__n { min-width: 22px; font: 800 18px/1 var(--font-display); color: var(--red); }
+.item__t { flex: 1; min-width: 0; font-size: 15.5px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.item__mv { display: flex; gap: 4px; }
+.item__mv button { width: 44px; height: 44px; padding: 0; border: 1.5px solid var(--rule-2); border-radius: 10px; background: transparent; font-size: 18px; }
+.item__mv button:hover:not(:disabled) { border-color: var(--ink); }
+.item__mv button:disabled { opacity: 0.35; cursor: default; }
+.item__body { display: grid; gap: 16px; padding: 14px 14px 16px; border-top: 1px dashed var(--rule-2); }
+.item__foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-top: 12px; border-top: 1px dashed var(--rule-2); }
+.nested { display: grid; gap: 10px; padding: 14px; background: var(--paper); border-radius: 12px; }
+.nested h3 { font: 600 12px/1.3 var(--font-text); letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); }
+.nested .item { border-width: 1px; }
+.list__add { justify-self: start; }
+.note { display: grid; gap: 10px; padding: 12px 14px; background: #fbeec4; border: 1px solid #d9b44a; border-radius: 12px; font-size: 14.5px; color: #3d2c00; }
+
+/* — ველები — */
+.fld { display: grid; gap: 6px; min-width: 0; margin: 0; padding: 0; border: 0; }
+.fld > label, .fld > legend, .fld__label { display: flex; align-items: center; gap: 8px; padding: 0; font-size: 13.5px; font-weight: 600; }
+.tag { padding: 3px 6px; border-radius: 6px; background: var(--red); color: var(--on-red); font-size: 10.5px; letter-spacing: 0.06em; }
+.fld input:not([type='checkbox'], [type='file']), .fld textarea, .fld select {
+  width: 100%; min-height: 48px; padding: 10px 12px; border: 1.5px solid var(--rule-2); border-radius: 10px; background-color: #fff; color: var(--ink);
+  font: 400 16px/1.4 var(--font-text); /* 16px — iPhone ველზე დაჭერისას არ ადიდებს */
+}
+.fld textarea { min-height: 96px; resize: vertical; }
+.fld input:hover, .fld textarea:hover, .fld select:hover { border-color: var(--ink-2); }
+.fld input:disabled { opacity: 0.5; }
+.fld__hint { font-size: 13px; line-height: 1.4; color: var(--ink-2); }
+.fld__langs { font-size: 12.5px; color: var(--ink-2); }
+.fld__langs.is-missing { color: var(--red); font-weight: 600; }
+.check { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font-size: 15px; cursor: pointer; }
+.check input { width: 22px; height: 22px; margin: 0; accent-color: var(--red); flex: none; }
+.pills { display: flex; flex-wrap: wrap; gap: 2px 16px; }
+.imgrow { display: flex; gap: 14px; align-items: flex-start; }
+.imgrow img, .imgrow__empty { flex: none; width: 96px; height: 128px; object-fit: cover; border: 1.5px solid var(--ink); border-radius: 10px; background: var(--rule); }
+.imgrow__empty { display: grid; place-items: center; padding: 6px; border-style: dashed; text-align: center; font-size: 12px; color: var(--ink-2); }
+.imgrow__act { display: grid; gap: 8px; justify-items: start; min-width: 0; }
+.hrs { display: grid; gap: 8px; }
+.hrs__row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.hrs__row > span:first-child { min-width: 96px; font-size: 14.5px; }
+.fld .hrs__row input[type='time'] { width: auto; min-width: 120px; }
+.fld--hours > .btn { justify-self: start; }
+
+/* — შენახვის ზოლი — */
+.savebar { position: fixed; inset: auto 0 0 0; z-index: 40; display: flex; align-items: center; gap: 10px; padding: 10px var(--gutter) calc(10px + env(safe-area-inset-bottom)); background: var(--ink); color: var(--on-ink); }
+.savebar__st { flex: 1; min-width: 0; font-size: 14px; line-height: 1.3; }
+.savebar.is-dirty .savebar__st { color: #f6d98b; font-weight: 600; }
+.savebar .btn { min-height: 48px; }
+
+/* — შესვლა — */
+.login { display: grid; gap: 16px; width: min(100% - 2 * var(--gutter), 420px); margin: 12vh auto 0; padding: 24px; background: var(--card); border: 1.5px solid var(--ink); border-radius: 18px; box-shadow: 8px 8px 0 var(--ink); }
+.login h1 { display: flex; align-items: baseline; gap: 10px; font: 800 34px/1 var(--font-display); }
+.login h1 span { font: 600 12px/1 var(--font-text); letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-2); }
+.login__err { min-height: 1.4em; font-size: 14.5px; color: var(--red); }
+.loading { padding: 20vh var(--gutter); text-align: center; color: var(--ink-2); }
+
+@media (max-width: 560px) {
+  .top .mode { display: none; }
+  .savebar .btn { padding: 0 16px; }
+  .item__t { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+}

@@ -108,8 +108,7 @@ export default defineConfig(({ mode }) => {
     build: {
       target: 'es2022',
       rolldownOptions: {
-        // ადმინ პანელი (admin/index.html) დროებით გამორთულია — დასამატებლად ჩაამატე: admin: r('admin/index.html')
-        input: { main: r('index.html'), en: r('en/index.html'), ru: r('ru/index.html') },
+        input: { main: r('index.html'), en: r('en/index.html'), ru: r('ru/index.html'), admin: r('admin/index.html') },
       },
     },
   };
