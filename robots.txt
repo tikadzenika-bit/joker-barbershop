@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /Program%20Files/Git/joker-barbershop/admin/
+Disallow: /joker-barbershop/admin/
 
-Sitemap: https://tikadzenika-bit.github.io/Program%20Files/Git/joker-barbershop/sitemap.xml
+Sitemap: https://tikadzenika-bit.github.io/joker-barbershop/sitemap.xml
